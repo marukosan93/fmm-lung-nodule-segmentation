@@ -1,0 +1,10 @@
+LIDC-IDRI-0091-9.26mm&fmmap:5&fmmsp:5&fmmod:5&acap:4&acsp:4&acod:4.5
+LIDC-IDRI-1011-22.14mm&fmmap:2.5&fmmsp:2.5&fmmod:2&acap:5&acsp:4.5&acod:4.5
+LIDC-IDRI-0063-8.77mm&fmmap:1.5&fmmsp:1.5&fmmod:1.5&acap:4.5&acsp:4&acod:4.5
+LIDC-IDRI-0844-10.72mm&fmmap:3.5&fmmsp:3.5&fmmod:3&acap:4&acsp:4&acod:4
+LIDC-IDRI-0206-9.82mm&fmmap:5&fmmsp:5&fmmod:5&acap:4&acsp:4&acod:4
+LIDC-IDRI-0865-20.12mm&fmmap:4&fmmsp:4&fmmod:4&acap:4&acsp:4&acod:4.5
+LIDC-IDRI-0114-9.75mm&fmmap:5&fmmsp:5&fmmod:5&acap:4&acsp:4&acod:4.5
+LIDC-IDRI-0052-16.98mm&fmmap:4.5&fmmsp:4&fmmod:4&acap:4.5&acsp:4&acod:5
+LIDC-IDRI-0681-16.1mm&fmmap:4.5&fmmsp:4.5&fmmod:4.5&acap:4.5&acsp:3.5&acod:4.5
+LIDC-IDRI-0194-20.52mm&fmmap:3.5&fmmsp:3.5&fmmod:4&acap:4&acsp:4&acod:4.5
