@@ -8,7 +8,7 @@ This project has been built upon existing work as a foundation. More information
 
 ## Directory Structure
 
-* Altered phantom nodules
+- Altered phantom nodules
 * FMM_segmentation
 * Evaluation (Objective)    
 * LIDC_nodules_by_categories
