@@ -8,8 +8,10 @@ This project has been built upon existing work as a foundation. More information
 
 ## Directory Structure
 
-- Altered phantom nodules
+* Altered phantom nodules
+  * ciaone
 * FMM_segmentation
+  * icaone
 * Evaluation (Objective)    
 * LIDC_nodules_by_categories
 * Evaluation (Subjective)
