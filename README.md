@@ -8,15 +8,13 @@ This project has been built upon existing work as a foundation. More information
 
 ## Directory Structure
 
-* Altered phantom nodules
-  * ciaone
-* FMM_segmentation
-  * icaone
-* Evaluation (Objective)    
-* LIDC_nodules_by_categories
-* Evaluation (Subjective)
-* Matlab
-* Extract_LIDC_nodules       
-* Extract_phantom_nodules
+* Altered phantom nodules - contains nodule images from altered phantom dataset, after preprocessing and alterations
+* Evaluation (Objective) - contains python code for performing objective evaluation, and for generating plots
+* Evaluation (Subjective) - contains python code for performing subjective evaluation, and for generating plots
+* Extract_LIDC_nodules - with DICOM files as input and nodule coordinates, performs preprocessing stage on nodules from LIDC dataseet 
+* Extract_phantom_nodules - with DICOM files as input and nodule coordinates, performs preprocessing stage on nodules phantom
+* FMM_segmentation - contains python code for running the region-based fast marching method segmentation algorithm
+* LIDC_nodules_by_categories - contains nodule images from LIDC subset, after preprocessing and sorting in categories
+* Matlab - contains matlab code for performing active contours segmentation
 
 
