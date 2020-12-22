@@ -8,7 +8,8 @@ This project has been built upon existing work as a foundation. More information
 
 ## Directory Structure
 
-* Altered phantom nodules - contains nodule images from altered phantom dataset, after preprocessing and alterations
+* Altered phantom nodules 
+  * contains nodule images from altered phantom dataset, after preprocessing and alterations
 * Evaluation (Objective) - contains python code for performing objective evaluation, and for generating plots
 * Evaluation (Subjective) - contains python code for performing subjective evaluation, and for generating plots
 * Extract_LIDC_nodules - with DICOM files as input and nodule coordinates, performs preprocessing stage on nodules from LIDC dataseet 
