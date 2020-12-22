@@ -1,7 +1,7 @@
-# fmm-lung-nodule-segmentation
+# Lung Nodule Segmentation with Region-based Fast Marching Method
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
+This project contains all materials associated with the study "Lung Nodule Segmentation with Region-based Fast Marching Method"
 
 ## Credits and Original Work
 This project has been built upon existing work as a foundation. More information on which ideas, techniques, algorithms and code were original and which were taken from existing work can be found in "Credits and Original Work.pdf"
