@@ -19,15 +19,26 @@ class nodule:
 
 INPUT_FILE_FORM_1 = sys.argv[1]
 INPUT_FILE_FORM_2 = sys.argv[2]
-INPUT_FILE_TXT_INDICES = sys.argv[3]
+INPUT_FILE_FORM_3 = sys.argv[3]
+INPUT_FILE_FORM_4 = sys.argv[4]
+INPUT_FILE_FORM_5 = sys.argv[5]
+INPUT_FILE_TXT_INDICES = sys.argv[6]
 
 pdfobject_1=open(INPUT_FILE_FORM_1,'rb')
 pdfobject_2=open(INPUT_FILE_FORM_2,'rb')
+pdfobject_3=open(INPUT_FILE_FORM_3,'rb')
+pdfobject_4=open(INPUT_FILE_FORM_4,'rb')
+pdfobject_5=open(INPUT_FILE_FORM_5,'rb')
 pdf_1=pypdf.PdfFileReader(pdfobject_1)
 pdf_2=pypdf.PdfFileReader(pdfobject_2)
+pdf_3=pypdf.PdfFileReader(pdfobject_3)
+pdf_4=pypdf.PdfFileReader(pdfobject_4)
+pdf_5=pypdf.PdfFileReader(pdfobject_5)
 form_1 = (pdf_1.getFormTextFields())
 form_2 = (pdf_2.getFormTextFields())
-
+form_3 = (pdf_3.getFormTextFields())
+form_4 = (pdf_4.getFormTextFields())
+form_5 = (pdf_5.getFormTextFields())
 
 index = 1
 nodule_list = []
@@ -41,9 +52,9 @@ for x in f:
         if "ac" in y:
             t = "ac"
             y = y[:len(y)-15]
-        ap = str(statistics.mean([int(form_1.get("ap"+str(index))),int(form_2.get("ap"+str(index)))]))
-        sp = str(statistics.mean([int(form_1.get("sp"+str(index))),int(form_2.get("sp"+str(index)))]))
-        od = str(statistics.mean([int(form_1.get("od"+str(index))),int(form_2.get("od"+str(index)))]))
+        ap = str(statistics.mean([int(form_1.get("ap"+str(index))),int(form_2.get("ap"+str(index))),int(form_3.get("ap"+str(index))),int(form_4.get("ap"+str(index))),int(form_5.get("ap"+str(index)))]))
+        sp = str(statistics.mean([int(form_1.get("sp"+str(index))),int(form_2.get("sp"+str(index))),int(form_3.get("sp"+str(index))),int(form_4.get("sp"+str(index))),int(form_5.get("sp"+str(index)))]))
+        od = str(statistics.mean([int(form_1.get("od"+str(index))),int(form_2.get("od"+str(index))),int(form_3.get("od"+str(index))),int(form_4.get("od"+str(index))),int(form_5.get("od"+str(index)))]))
         nodule_list.append(nodule(index,y,t,ap,sp,od))
         index+=1
 

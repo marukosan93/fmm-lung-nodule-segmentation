@@ -72,10 +72,11 @@ for stringhetta in stringhette:
     darkblue_patch = mpatches.Patch(color='darkblue', label='Overall diag. qual. - FMM')
     legend_pos = 0.48
     if plt_scale == 1:
-        legend_pos = 0.03
+        legend_pos = 0.08
     ax.legend(bbox_to_anchor=(legend_pos, 0.9),handles=[cyan_patch,royalblue_patch,darkblue_patch,salmon_patch,firebrick_patch,maroon_patch],ncol=2)
     ax.grid(axis='y',color='k', linestyle=(0, (5, 10)))
     plt.savefig("Graphs/"+INPUT_FOLDER+"_mos_graph.png",bbox_inches='tight',pad_inches=0.01)
+    #plt.show()
     print("\\begin{figure}[h!]")
     print("\\centering")
     print("\\includegraphics[width=0.86\linewidth]{img/"+INPUT_FOLDER+"_mos_graph.png}")
